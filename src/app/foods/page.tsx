@@ -1,7 +1,8 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { getFoods } from "../../../services/firestore";
 
-// Foodの型を定義
 interface Food {
   id: string;
   name: string;
